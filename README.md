@@ -14,13 +14,17 @@ What this adds
     • Optional live viewer (--live) with the same controls (p, q, s).
 
 How to run
+
 pip install numpy scipy matplotlib imageio imageio[ffmpeg]
 
-# Batch
+Batch
+
 python model_g_2d_xy_vortical__1a.py
 
-# Live viewer (needs an interactive backend; if needed: sudo apt install python3-tk)
+Live viewer (needs an interactive backend; if needed: sudo apt install python3-tk)
+
 MPLBACKEND=TkAgg python model_g_2d_xy_vortical__1a.py --live
+
 Useful knobs
     • Grid/domain: --nx 192 --ny 192 --Lx 60 --Ly 60
     • Time: --dt 0.005 --segment_dt 0.5 --Tfinal 10
