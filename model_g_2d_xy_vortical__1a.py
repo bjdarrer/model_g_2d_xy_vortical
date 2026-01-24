@@ -19,10 +19,10 @@ Install
     pip install numpy scipy matplotlib imageio imageio[ffmpeg]
 
 Run (batch)
-    python model_g_2d_xy_vortical__1a.py
+    python3 model_g_2d_xy_vortical__1a.py
 
 Run (live viewer)
-    MPLBACKEND=TkAgg python model_g_2d_xy_vortical__1a.py --live
+    MPLBACKEND=TkAgg python3 model_g_2d_xy_vortical__1a.py --live
 
 Notes
 - This version uses a pseudo‑spectral (FFT) scheme with periodic BCs. Your earlier FD/Dirichlet codes remain separate.
